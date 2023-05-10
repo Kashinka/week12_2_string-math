@@ -1,8 +1,8 @@
-let button = document.getElementById('button');
+const button = document.getElementById('button');
 
-let result = document.getElementById('result');
+const result = document.getElementById('result');
 
-let form = document.getElementById('form');
+const form = document.getElementById('form');
 
 button.onsubmit = function() {
 
