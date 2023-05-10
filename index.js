@@ -6,7 +6,7 @@ const form = document.getElementById('form');
 
 const fio = document.getElementById('fio');
 
-const ava = document.getElementById('fio');
+const ava = document.getElementById('ava');
 
 const comment = document.getElementById('comment');
 
