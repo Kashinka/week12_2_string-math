@@ -18,7 +18,7 @@ const ava = document.getElementById('ava');
 
 const comment = document.getElementById('comment');
 
-button.onclick = function() {
+button.onclick = function displayComment() {
 
     result.innerHTML = fio3 + "\n" + ava.value + "\n" + comment.value;
 
