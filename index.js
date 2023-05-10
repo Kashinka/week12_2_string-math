@@ -6,8 +6,12 @@ const form = document.getElementById('form');
 
 const fio = document.getElementById('fio');
 
-button.onsubmit = function() {
+const ava = document.getElementById('fio');
 
-    result.innerHTML = fio.value;
+const comment = document.getElementById('comment');
+
+button.onclick = function() {
+
+    result.innerHTML = fio.value + "\n" + ava.value + "\n" + comment.value;
 
 };
