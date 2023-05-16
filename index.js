@@ -10,7 +10,7 @@ let fio3 = function correctName() {
 
     let fio2 = fio.value;
 
-    return fio2[0].toUpperCase() + fio2.slice(1).toLowerCase();
+    return fio2[0].toUpperCase().replace(/\s+/g, '') + fio2.slice(1).toLowerCase().replace(/\s+/g, '');
 
 };
 
