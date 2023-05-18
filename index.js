@@ -20,10 +20,16 @@ return stringFio;
 
 const ava = document.getElementById('ava');
 
+const result2 = document.getElementById('result2');
+
 const comment = document.getElementById('comment');
 
 button.onclick = function displayComment() {
 
-    result.innerHTML = resultFio() + "\n" + ava.value + "\n" + comment.value;
+    result.innerHTML = resultFio() + "\n" + comment.value;
+
+    const link = ava.value;
+
+    result2.innerHTML = `<img src = ${link} width = 100 px height = 150 px>`;
 
 };
