@@ -22,14 +22,22 @@ const ava = document.getElementById('ava');
 
 const result2 = document.getElementById('result2');
 
+const result3 = document.getElementById('result3');
+
 const comment = document.getElementById('comment');
 
 button.onclick = function displayComment() {
 
-    result.innerHTML = resultFio() + "\n" + comment.value;
+    result.innerHTML = resultFio();
 
     const link = ava.value;
 
     result2.innerHTML = `<img src = ${link} width = 100 px height = 150 px>`;
+
+    result3.innerHTML = checkSpam(comment) {
+
+        const checkViagra = comment.value.replace('/viagra/i', '***');
+
+    };
 
 };
