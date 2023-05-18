@@ -28,7 +28,7 @@ const comment = document.getElementById('comment');
 
 function checkSpam(comment) {
 
-    const checkViagra = comment.value.replace('/viagra/i', '***');
+    const checkViagra = comment.value.replace(/viagra/i, '***');
 
     return checkViagra;
 
